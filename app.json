@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
-      "value": ".",
+      "value": "+",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -25,7 +25,7 @@
     },
     "AUTO_VIEW_STATUS": {
       "description": "Automatically view your contacts' status updates. Type 'on' to activate or 'off' to deactivate.",
-      "value": "on",
+      "value": "false",
       "required": false
     },
     "AUTO_SAVE_STATUS": {
@@ -50,7 +50,7 @@
     },
     "TIME_ZONE": {
       "description": "Specify your country's time zone (e.g., 'Africa/Nairobi'). This ensures that bot activities follow your local time.",
-      "value": "Africa/Nairobi",
+      "value": "Africa/Gweru",
       "required": false
     },
     "ANTICALL": {
