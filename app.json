@@ -1,8 +1,8 @@
 {
-  "name": "FLASH-MD",
+  "name": "JOSHKINGv1-MD",
   "description": "An easy and simple WhatsApp bot developed by France King",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+  "logo": "https://b.top4top.io/p_3291qwfqu0.jpg",
   "repository": "https://github.com/franceking1/Flash-Md",
   "succes_url": "/",
   "stack": "heroku-24",
@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
-      "value": ".",
+      "value": "+",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -46,12 +46,12 @@
     "ANTI_DELETE": {
       "description": "Prevent others from deleting their messages in a chat. Set to 'on' to enable or 'off' to disable.",
       "value": "on",
-      "required": false
+      "required": true
     },
     "TIME_ZONE": {
       "description": "Specify your country's time zone (e.g., 'Africa/Nairobi'). This ensures that bot activities follow your local time.",
-      "value": "Africa/Nairobi",
-      "required": false
+      "value": "Africa/Gweru",
+      "required": true
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls. Type 'on' to activate or 'off' to deactivate.",
@@ -79,12 +79,12 @@
     },
     "OWNER_NAME": {
       "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "France King",
+      "value": "JoshKing King",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
+      "value": "263716729222",
       "required": false
     },
     "WARN_COUNT": {
