@@ -1,8 +1,8 @@
 {
-  "name": "FLASH-MD",
+  "name": "Joshkingofc-MD",
   "description": "An easy and simple WhatsApp bot developed by France King",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+  "logo": "https://b.top4top.io/p_3291qwfqu0.jpg",
   "repository": "https://github.com/franceking1/Flash-Md",
   "succes_url": "/",
   "stack": "heroku-24",
@@ -10,8 +10,8 @@
   "env": {
     "PREFIX": {
       "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
-      "value": ".",
-      "required": false
+      "value": "!",
+      "required": true
     },
     "AUTO_READ_MESSAGES": {
       "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
@@ -54,9 +54,9 @@
       "required": false
     },
     "TIME_ZONE": {
-      "description": "Specify your country's time zone (e.g., 'Africa/Nairobi'). This ensures that bot activities follow your local time.",
-      "value": "Africa/Nairobi",
-      "required": false
+      "description": "Specify your country's time zone (e.g., 'Africa/Harare'). This ensures that bot activities follow your local time.",
+      "value": "Zimbabwe/Gweru",
+      "required": true
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls. Type 'on' to activate or 'off' to deactivate.",
@@ -66,7 +66,7 @@
     "BOT_MODE": {
       "description": "Set the bot to 'private' mode to restrict access to certain users or 'public' mode for general access.",
       "value": "public",
-      "required": false
+      "required": true
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key here. This allows you to manage environment variables and other settings more effectively.",
@@ -89,8 +89,8 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
-      "required": false
+      "value": "263777756184",
+      "required": true
     },
     "WARN_COUNT": {
       "description": "Set the limit for warnings issued by the bot. Once this limit is reached, action will be taken.",
@@ -99,7 +99,7 @@
     },
     "CHAT_BOT": {
       "description": "Set to 'on' if you want the bot to respond to user messages automatically. Use 'off' to disable auto-chatting.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "STARTING_MESSAGE": {
