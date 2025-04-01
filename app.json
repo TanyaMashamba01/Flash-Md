@@ -99,7 +99,7 @@
     },
     "CHAT_BOT": {
       "description": "Set to 'on' if you want the bot to respond to user messages automatically. Use 'off' to disable auto-chatting.",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "STARTING_MESSAGE": {
